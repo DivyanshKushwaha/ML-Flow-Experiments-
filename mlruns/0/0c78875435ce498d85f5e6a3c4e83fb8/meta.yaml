@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0c78875435ce498d85f5e6a3c4e83fb8/artifacts
+end_time: 1734687628849
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0c78875435ce498d85f5e6a3c4e83fb8
+run_name: carefree-frog-910
+run_uuid: 0c78875435ce498d85f5e6a3c4e83fb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734687628635
+status: 3
+tags: []
+user_id: jatin

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/967be29337914990bebdb06ae5f63c19/artifacts
+end_time: 1734687646097
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 967be29337914990bebdb06ae5f63c19
+run_name: traveling-bird-960
+run_uuid: 967be29337914990bebdb06ae5f63c19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734687645910
+status: 3
+tags: []
+user_id: jatin

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6b8012888f394a18826d20233a98fea3/artifacts
+end_time: 1734690831788
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b8012888f394a18826d20233a98fea3
+run_name: marvelous-deer-181
+run_uuid: 6b8012888f394a18826d20233a98fea3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734690831574
+status: 3
+tags: []
+user_id: jatin

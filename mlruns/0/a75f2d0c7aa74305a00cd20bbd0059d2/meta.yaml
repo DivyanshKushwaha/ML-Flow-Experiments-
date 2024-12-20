@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a75f2d0c7aa74305a00cd20bbd0059d2/artifacts
+end_time: 1734687105696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a75f2d0c7aa74305a00cd20bbd0059d2
+run_name: invincible-finch-278
+run_uuid: a75f2d0c7aa74305a00cd20bbd0059d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734687105491
+status: 3
+tags: []
+user_id: jatin

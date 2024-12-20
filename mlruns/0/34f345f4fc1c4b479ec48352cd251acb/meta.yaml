@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/34f345f4fc1c4b479ec48352cd251acb/artifacts
+end_time: 1734688784049
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34f345f4fc1c4b479ec48352cd251acb
+run_name: worried-calf-865
+run_uuid: 34f345f4fc1c4b479ec48352cd251acb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734688780788
+status: 4
+tags: []
+user_id: jatin

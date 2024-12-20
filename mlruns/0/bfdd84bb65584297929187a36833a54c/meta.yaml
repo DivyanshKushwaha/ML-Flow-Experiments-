@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/bfdd84bb65584297929187a36833a54c/artifacts
+end_time: 1734689120575
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bfdd84bb65584297929187a36833a54c
+run_name: smiling-mare-744
+run_uuid: bfdd84bb65584297929187a36833a54c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734689118769
+status: 4
+tags: []
+user_id: jatin

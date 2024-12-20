@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/535335387025718918/ada38282dda747eb81cdc239bcc42a54/artifacts
+end_time: 1734691342821
+entry_point_name: ''
+experiment_id: '535335387025718918'
+lifecycle_stage: active
+run_id: ada38282dda747eb81cdc239bcc42a54
+run_name: bright-wren-229
+run_uuid: ada38282dda747eb81cdc239bcc42a54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734691341303
+status: 3
+tags: []
+user_id: jatin

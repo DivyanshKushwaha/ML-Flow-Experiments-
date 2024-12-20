@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Tutorial/MLOps/ML-Flow-Experiments-/mlruns/767408788889382447/52461918aaee4235bb549b02f0aff830/artifacts
+end_time: 1734691381027
+entry_point_name: ''
+experiment_id: '767408788889382447'
+lifecycle_stage: active
+run_id: 52461918aaee4235bb549b02f0aff830
+run_name: luminous-wasp-895
+run_uuid: 52461918aaee4235bb549b02f0aff830
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734691379800
+status: 3
+tags: []
+user_id: jatin

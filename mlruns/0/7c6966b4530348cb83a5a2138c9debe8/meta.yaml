@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7c6966b4530348cb83a5a2138c9debe8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c6966b4530348cb83a5a2138c9debe8
+run_name: thoughtful-ray-312
+run_uuid: 7c6966b4530348cb83a5a2138c9debe8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734688950132
+status: 1
+tags: []
+user_id: jatin

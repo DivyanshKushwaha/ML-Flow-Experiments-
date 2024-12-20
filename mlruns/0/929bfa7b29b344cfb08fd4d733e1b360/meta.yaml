@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/929bfa7b29b344cfb08fd4d733e1b360/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 929bfa7b29b344cfb08fd4d733e1b360
+run_name: bemused-frog-538
+run_uuid: 929bfa7b29b344cfb08fd4d733e1b360
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734689033839
+status: 1
+tags: []
+user_id: jatin

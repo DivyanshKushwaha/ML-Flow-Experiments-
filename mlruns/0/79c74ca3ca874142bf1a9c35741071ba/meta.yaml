@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/79c74ca3ca874142bf1a9c35741071ba/artifacts
+end_time: 1734691186294
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79c74ca3ca874142bf1a9c35741071ba
+run_name: polite-snipe-472
+run_uuid: 79c74ca3ca874142bf1a9c35741071ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734691185025
+status: 3
+tags: []
+user_id: jatin
