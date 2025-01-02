@@ -19,7 +19,7 @@ max_depth = 50
 n_estimator =150
 
 # mention your experiment below 
-mlflow.set_experiment('mlopsexp1')
+mlflow.set_experiment('mlopsexp2')
 with mlflow.start_run():
     rf = RandomForestClassifier(max_depth=max_depth, n_estimators=n_estimator,random_state=42)
     rf.fit(x_train,y_train)
@@ -45,7 +45,7 @@ with mlflow.start_run():
     mlflow.log_artifact(__file__)
 
 
-    mlflow.set_tags({'Author':'Vikash',"Project":"Wine classification"})
+    mlflow.set_tags({'Author':'Divyansh',"Project":"Wine classification"})
 
     mlflow.sklearn.log_model(rf,"random-forest-classifier")
     print(accuracy)

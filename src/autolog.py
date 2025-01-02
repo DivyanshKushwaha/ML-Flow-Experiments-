@@ -16,10 +16,10 @@ wine = load_wine()
 x = wine.data 
 y = wine.target
 
-x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2,random_state=42) 
+x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.4,random_state=42) 
 
 max_depth = 15
-n_estimator =10
+n_estimator =100
 
 # mention your experiment below
 mlflow.autolog() 
@@ -45,7 +45,7 @@ with mlflow.start_run():
     mlflow.log_artifact(__file__)
 
 
-    mlflow.set_tags({'Author':'Vikash',"Project":"Wine classification"})
+    mlflow.set_tags({'Author':'Divyansh ji',"Project":"Wine classification"})
 
-    mlflow.sklearn.log_model(rf,"random-forest-classifier")
+    mlflow.sklearn.log_model(rf,"random-forest-classifier-autolog")
     print(accuracy)

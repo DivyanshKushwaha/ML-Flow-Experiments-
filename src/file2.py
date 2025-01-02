@@ -18,8 +18,8 @@ y = wine.target
 
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2,random_state=42) 
 
-max_depth = 15
-n_estimator =10
+max_depth = 5
+n_estimator =100
 
 # mention your experiment below 
 mlflow.set_experiment('mlopsexp1')
@@ -46,7 +46,7 @@ with mlflow.start_run():
     mlflow.log_artifact(__file__)
 
 
-    mlflow.set_tags({'Author':'Divyansh',"Project":"Wine classification"})
+    mlflow.set_tags({'Author':'Divyansh Kushwaha',"Project":"Wine classification"})
 
     mlflow.sklearn.log_model(rf,"random-forest-classifier")
     print(accuracy)
