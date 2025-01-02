@@ -15,11 +15,11 @@ y = wine.target
 
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2,random_state=42) 
 
-max_depth = 20
-n_estimator =100
+max_depth = 50
+n_estimator =150
 
 # mention your experiment below 
-# mlflow.set_experiment('mlopsexp1')
+mlflow.set_experiment('mlopsexp1')
 with mlflow.start_run():
     rf = RandomForestClassifier(max_depth=max_depth, n_estimators=n_estimator,random_state=42)
     rf.fit(x_train,y_train)
