@@ -15,11 +15,11 @@ y = wine.target
 
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2,random_state=42) 
 
-max_depth = 8
-n_estimator =30
+max_depth = 20
+n_estimator =100
 
 # mention your experiment below 
-mlflow.set_experiment('mlopsexp1')
+# mlflow.set_experiment('mlopsexp1')
 with mlflow.start_run():
     rf = RandomForestClassifier(max_depth=max_depth, n_estimators=n_estimator,random_state=42)
     rf.fit(x_train,y_train)
@@ -28,6 +28,7 @@ with mlflow.start_run():
     mlflow.log_metric('accuracy ',accuracy )
     mlflow.log_param('max_depth ',max_depth)
     mlflow.log_param('n_estimator ',n_estimator)
+    print(accuracy)
 
     # creating a confusion matrix plot 
     cm = confusion_matrix(y_test,y_pred)
